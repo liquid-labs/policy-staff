@@ -1,0 +1,20 @@
+{
+  "name": "@liquid-labs/policy-staff",
+  "version": "1.0.0-alpha.0",
+  "description": "Liquid Policy component dealing with hiring and staff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Liquid-Labs/policy-staff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Liquid-Labs/policy-staff/issues"
+  },
+  "homepage": "https://github.com/Liquid-Labs/policy-staff#readme"
+}
