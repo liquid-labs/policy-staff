@@ -1,5 +1,5 @@
 UUID	Subsection	Statement	Absolute Condition	Individual Condition	Audit Condition	Refs
 
-4B38B0D7-59F7-4D6F-ADE0-482583864D6A	General Responsibilities	All staff members are required to review and acknowledge awareness of all applicable policy and standard requirements as pertains to their role as part of the staff onboarding and annually thereafter.	GEN_SEC_LEVEL > SEC_TRIVIAL	ALWAYS	IS_FULL_AUDIT	PCI DSS v3.2.1 ref 1.5
+4B38B0D7-59F7-4D6F-ADE0-482583864D6A	General Responsibilities	All staff members are required to review and acknowledge awareness of all applicable policy and standard requirements as pertains to their role as part of the staff onboarding and annually thereafter.	GEN_SEC_LVL > SEC_TRIVIAL	ALWAYS	IS_FULL_AUDIT	PCI DSS v3.2.1 ref 1.5
 
 5B9011B1-3F31-4C42-AC0F-D3C4E8A1DC8F	Audits	The [Master Staff Log]({{ .MASTER_STAFF_LOG }}) shall be audited monthly by a qualified Human Resources Agent and/or Compliance Agent.	TRACKS_STAFF	ROLE in ('Compliance Agent', 'Human Resources Agent')	IS_FULL_AUDIT	-
