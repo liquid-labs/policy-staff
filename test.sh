@@ -10,6 +10,7 @@ MY_PACKAGE='@liquid-labs/policy-staff'
 cat <<EOF > settings.sh
 HAS_SENSITIVE_DATA=1
 TRACKS_STAFF=1
+GEN_SEC_LVL=3
 
 # for policy-security
 COMPANY_EMAIL_DOMAIN='foo.com'

@@ -19,9 +19,10 @@
   },
   "homepage": "https://github.com/Liquid-Labs/policy-staff#readme",
   "devDependencies": {
-    "@liquid-labs/policies-model": "^1.0.0-beta.18"
+    "@liquid-labs/policies-model": "^1.0.0-beta.18",
+    "@liquid-labs/policy-security": "^1.0.0-alpha.3"
   },
   "peerDependencies": {
-    "@liquid-labs/policy-security": "^1.0.0-alpha.2"
+    "@liquid-labs/policy-security": "^1.0.0-alpha.3"
   }
 }
