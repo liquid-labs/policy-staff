@@ -19,6 +19,9 @@ HAS_CENTRAL_ENDPOINT_PROTECTION=1
 ANTI_VIRUS_CLIENT='Sophos Home client'
 CENTRAL_ENDPOINT_PROTECTION='Sophos Home client'
 MASTER_STAFF_LOG='https://foo.com/master-staff-log'
+TRACKS_APPROVED_TECHNOLOGIES=1
+PRODUCTION_AND_SENSITIVE_TECHNOLOGIES='https://foo.com/approved-tech-inventory'
+COMPONENT_UPDATE_CYCLE='monthly'
 EOF
 
 cleanup() {
@@ -49,7 +52,7 @@ echo -n "found $OUT_FILES: "
 if (( $OUT_FILES == $POLICY_COUNT )); then
   echo "PASS"
 else
-  echo "FAIL"
+  echo "FAIL (found $OUT_FILES)"
   EXIT=1
 fi
 
