@@ -22,6 +22,10 @@ MASTER_STAFF_LOG='https://foo.com/master-staff-log'
 TRACKS_APPROVED_TECHNOLOGIES=1
 PRODUCTION_AND_SENSITIVE_TECHNOLOGIES='https://foo.com/approved-tech-inventory'
 COMPONENT_UPDATE_CYCLE='monthly'
+PASSWORD_MANAGER='KeePassXC'
+PASSWORD_MANAGER_MACOS_INSTALL_URL='http://foo.com'
+PASSWORD_MANAGER_EXTENSION_URL='https://foo.com/ext'
+PASSWORD_MANAGER_WINDOWS_10_INSTALL_URL='http://foo.com/win'
 EOF
 
 cleanup() {
