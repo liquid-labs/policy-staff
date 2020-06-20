@@ -1,0 +1,67 @@
+{
+  "staff": {
+    "gen-sec-training": {
+      "condition": "REQUIRES_UNIVERSAL_GEN_SEC_TRAINING",
+      "weightingFactor": 1,
+      "period": 360,
+      "cure": {
+        "procedre": "security/procedures/General Security Awareness Training.md",
+        "advice": "Schedule training ASAP."
+       }
+    },
+    "staff-anti-malware-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "weightingFactor": 1,
+      "period": 180,
+      "cure": {
+        "procedure": "devices/procedures/Individual Anti-Malware Setup.md",
+        "advice": "Confirm anti-malware installation."
+      }
+    },
+    "staff-firewall-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "weightingFactor": 1,
+      "period": 180,
+      "cure": {
+        "procedure": "devices/procedures/Individual Firewall Setup.md",
+        "advice": "Confirm firewall installation."
+      }
+    },
+    "staff-vpn-audit": {
+      "condition": "REQUIRES_VPN && HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "weightingFactor": 0.9,
+      "period": 180,
+      "cure": {
+        "procedure": "devices/procedures/Individual VPN Setup.md",
+        "advice": "Confirm VPN installation."
+      }
+    },
+    "staff-encrypted-hd-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "weightingFactor": 1,
+      "period": 360,
+      "cure": {
+        "procedure": "devices/procedures/Hard Drive Encryption.md",
+        "advice": "Confirm VPN installation."
+      }
+    },
+    "staff-pw-manager-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "weightingFactor": 1.1,
+      "period": 360,
+      "cure": {
+        "procedure": "devices/procedures/Individual Password Manager Installation.md",
+        "advice": "Confirm password manager installation."
+      }
+    },
+    "secure-coding-training": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && HAS_SOFTWARE_ENGINEER_ROLE",
+      "weightingFactor": 1.1,
+      "period": 360,
+      "cure": {
+        "procedre": "security/procedures/Secure Coding Training.md",
+        "advice": "Schedule training ASAP."
+       }
+    }
+  }
+}
