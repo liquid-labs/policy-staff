@@ -10,7 +10,7 @@
        }
     },
     "staff-anti-malware-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
       "weightingFactor": 1,
       "period": 180,
       "cure": {
@@ -19,7 +19,7 @@
       }
     },
     "staff-firewall-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
       "weightingFactor": 1,
       "period": 180,
       "cure": {
@@ -28,7 +28,7 @@
       }
     },
     "staff-vpn-audit": {
-      "condition": "REQUIRES_VPN && HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "condition": "REQUIRES_VPN && HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
       "weightingFactor": 0.9,
       "period": 180,
       "cure": {
@@ -37,7 +37,7 @@
       }
     },
     "staff-encrypted-hd-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
       "weightingFactor": 1,
       "period": 360,
       "cure": {
@@ -46,7 +46,7 @@
       }
     },
     "staff-pw-manager-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRATOR",
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
       "weightingFactor": 1.1,
       "period": 360,
       "cure": {
