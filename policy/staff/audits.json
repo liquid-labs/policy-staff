@@ -1,0 +1,67 @@
+{
+  "staff": {
+    "gen-sec-training": {
+      "condition": "REQUIRES_UNIVERSAL_GEN_SEC_TRAINING",
+      "weightingFactor": 1,
+      "period": 360,
+      "cure": {
+        "procedre": "security/procedures/General Security Awareness Training.md",
+        "advice": "Schedule Gen Sec training for ${id} ASAP."
+       }
+    },
+    "staff-anti-malware-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_ANTIVIRUS",
+      "weightingFactor": 1,
+      "period": 180,
+      "cure": {
+        "procedure": "devices/procedures/Individual Anti-Malware Setup.md",
+        "advice": "Have ${id} confirm anti-malware installation."
+      }
+    },
+    "staff-firewall-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_FIREWALL",
+      "weightingFactor": 1,
+      "period": 180,
+      "cure": {
+        "procedure": "devices/procedures/Individual Firewall Setup.md",
+        "advice": "Have ${id} confirm firewall installation."
+      }
+    },
+    "staff-vpn-audit": {
+      "condition": "REQUIRES_VPN && HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+      "weightingFactor": 0.9,
+      "period": 180,
+      "cure": {
+        "procedure": "devices/procedures/Individual VPN Setup.md",
+        "advice": "Have ${id} confirm VPN installation."
+      }
+    },
+    "staff-encrypted-hd-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+      "weightingFactor": 1,
+      "period": 360,
+      "cure": {
+        "procedure": "devices/procedures/Hard Drive Encryption.md",
+        "advice": "Have ${id} confirm HD encryption configuration."
+      }
+    },
+    "staff-pw-manager-audit": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+      "weightingFactor": 1.1,
+      "period": 360,
+      "cure": {
+        "procedure": "devices/procedures/Individual Password Manager Installation.md",
+        "advice": "Have ${id} confirm password manager installation."
+      }
+    },
+    "secure-coding-training": {
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && HAS_SOFTWARE_ENGINEER_ROLE",
+      "weightingFactor": 1.1,
+      "period": 360,
+      "cure": {
+        "procedre": "security/procedures/Secure Coding Training.md",
+        "advice": "Schedule secure coding training for ${id} ASAP."
+       }
+    }
+  }
+}
