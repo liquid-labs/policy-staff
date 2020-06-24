@@ -10,7 +10,7 @@
        }
     },
     "staff-anti-malware-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_ANTIVIRUS",
       "weightingFactor": 1,
       "period": 180,
       "cure": {
@@ -19,7 +19,7 @@
       }
     },
     "staff-firewall-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_FIREWALL",
       "weightingFactor": 1,
       "period": 180,
       "cure": {
