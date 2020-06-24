@@ -6,7 +6,7 @@
       "period": 360,
       "cure": {
         "procedre": "security/procedures/General Security Awareness Training.md",
-        "advice": "Schedule training ASAP."
+        "advice": "Schedule Gen Sec training for ${id} ASAP."
        }
     },
     "staff-anti-malware-audit": {
@@ -15,7 +15,7 @@
       "period": 180,
       "cure": {
         "procedure": "devices/procedures/Individual Anti-Malware Setup.md",
-        "advice": "Confirm anti-malware installation."
+        "advice": "Have ${id} confirm anti-malware installation."
       }
     },
     "staff-firewall-audit": {
@@ -24,7 +24,7 @@
       "period": 180,
       "cure": {
         "procedure": "devices/procedures/Individual Firewall Setup.md",
-        "advice": "Confirm firewall installation."
+        "advice": "Have ${id} confirm firewall installation."
       }
     },
     "staff-vpn-audit": {
@@ -33,7 +33,7 @@
       "period": 180,
       "cure": {
         "procedure": "devices/procedures/Individual VPN Setup.md",
-        "advice": "Confirm VPN installation."
+        "advice": "Have ${id} confirm VPN installation."
       }
     },
     "staff-encrypted-hd-audit": {
@@ -42,7 +42,7 @@
       "period": 360,
       "cure": {
         "procedure": "devices/procedures/Hard Drive Encryption.md",
-        "advice": "Confirm VPN installation."
+        "advice": "Have ${id} confirm HD encryption configuration."
       }
     },
     "staff-pw-manager-audit": {
@@ -51,7 +51,7 @@
       "period": 360,
       "cure": {
         "procedure": "devices/procedures/Individual Password Manager Installation.md",
-        "advice": "Confirm password manager installation."
+        "advice": "Have ${id} confirm password manager installation."
       }
     },
     "secure-coding-training": {
@@ -60,7 +60,7 @@
       "period": 360,
       "cure": {
         "procedre": "security/procedures/Secure Coding Training.md",
-        "advice": "Schedule training ASAP."
+        "advice": "Schedule secure coding training for ${id} ASAP."
        }
     }
   }
