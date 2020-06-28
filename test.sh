@@ -7,7 +7,7 @@ set -o pipefail
 
 MY_PACKAGE='@liquid-labs/policy-staff'
 
-cat <<EOF > settings.sh
+SETTINGS="$(cat <<EOF
 HAS_SENSITIVE_DATA=1
 TRACKS_STAFF=1
 GEN_SEC_LVL=3
@@ -27,11 +27,11 @@ PASSWORD_MANAGER_MACOS_INSTALL_URL='http://foo.com'
 PASSWORD_MANAGER_EXTENSION_URL='https://foo.com/ext'
 PASSWORD_MANAGER_WINDOWS_10_INSTALL_URL='http://foo.com/win'
 EOF
+)"
 
 cleanup() {
   echo -n "Cleaning up... "
   rm node_modules/${MY_PACKAGE}
-  rm settings.sh
   echo "done."
 }
 
@@ -44,6 +44,8 @@ echo "Preparing..."
 rm -rf .build test-out
 ln -s "$PWD" node_modules/${MY_PACKAGE}
 POLICY_COUNT=$(cd node_modules/@liquid-labs && find -L . -path "./policy-*" -name "*.md" -not -path "*/node_modules/*" -not -path "*/.yalc/*" | wc -l | awk '{print $1}')
+mkdir .build
+echo "${SETTINGS}" > .build/settings.sh
 
 echo -n "Test document parsing: "
 "${BIN}/liq-init-docs" run test-out > /dev/null || { echo "FAIL"; EXIT=1; }
