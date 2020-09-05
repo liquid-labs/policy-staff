@@ -59,8 +59,26 @@
       "weightingFactor": 1.1,
       "period": 360,
       "cure": {
-        "procedre": "security/procedures/Secure Coding Training.md",
+        "procedure": "security/procedures/Secure Coding Training.md",
         "advice": "Schedule secure coding training for ${id} ASAP."
+       }
+    },
+    "background-check": {
+      "condition": "ALWAYS",
+      "weightingFactor": 1.1,
+      "period": 1800,
+      "cure": {
+        "procedure": "TODO",
+        "advice": "Perform background check ASAP."
+       }
+    },
+    "policy-awareness": {
+      "condition": "ALWAYS",
+      "weightingFactor": 1.1,
+      "period": 360,
+      "cure": {
+        "procedure": "TODO",
+        "advice": "Schedule policy awareness training ASAP."
        }
     }
   }
