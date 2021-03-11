@@ -12,6 +12,7 @@ HAS_SENSITIVE_DATA=1
 TRACKS_STAFF=1
 GEN_SEC_LVL=3
 HR_COMPLIANCE_AGENCY=Gusto
+ORG_CHART='https://foo.com'
 
 # for policy-security
 COMPANY_EMAIL_DOMAIN='foo.com'
