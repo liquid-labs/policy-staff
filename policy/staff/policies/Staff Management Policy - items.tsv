@@ -1,0 +1,4 @@
+UUID    Subsection      Statement       Absolute Condition      Individual Condition    Refs
+
+6A109801-07F0-43D9-AE63-32AF4CC1809A	Hiring	*Criminal background checks*: Criminal background checks are performed on candidates whose role would give them control of significant corporate funds, corporate books, {{ if .HAS_SENSITIVE_DATA }}sensitive customer data, {{ end }}{{ if .HAS_CARDHOLDER_DATA }}any cardholder data, {{ end }}or whose duties fall under the scope of applicable regulations, compliance standards, or similar.	GEN_SEC_LVL > SEC_TRIVIAL	ROLE in ('Compliance', 'Human Resources', 'Chief')	SOC 2 Type I ref 1.4, SOC 2 Type II ref 1.4
+DA7DEAE2-12D6-4E5F-B06A-C4144D106BBB	Hiring	*Credit checks*: A credit check is performed prior to hiring anyone whose roles would give them access to significant corporate funds or books.	GEN_SEC_LVL > SEC_TRIVIAL	ROLE in ('Compliance', 'Human Resources', 'Chief')	SOC 2 Type I ref 1.4, SOC 2 Type II ref 1.4
