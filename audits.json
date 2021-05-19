@@ -1,6 +1,6 @@
 {
   "staff": {
-    "gen-sec-training": {
+    "staff-gen-sec-training": {
       "condition": "REQUIRES_UNIVERSAL_GEN_SEC_TRAINING",
       "weightingFactor": 1,
       "period": 360,
@@ -54,7 +54,7 @@
         "advice": "Have ${id} confirm password manager installation."
       }
     },
-    "secure-coding-training": {
+    "staff-secure-coding-training": {
       "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && HAS_SOFTWARE_ENGINEER_ROLE",
       "weightingFactor": 1.1,
       "period": 360,
@@ -63,7 +63,7 @@
         "advice": "Schedule secure coding training for ${id} ASAP."
        }
     },
-    "background-check": {
+    "staff-background-check": {
       "condition": "ALWAYS",
       "weightingFactor": 1.1,
       "period": 1800,
@@ -72,7 +72,7 @@
         "advice": "Perform background check ASAP."
        }
     },
-    "policy-awareness": {
+    "staff-policy-awareness": {
       "condition": "ALWAYS",
       "weightingFactor": 1.1,
       "period": 360,
