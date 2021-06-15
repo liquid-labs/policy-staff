@@ -1,0 +1,13 @@
+{
+  "Designated role":
+  "A <term>role</term> designating adjunct responsibilities and powers within a Company. These roles are used, for example, to designate individuals with particular responsibilites with regards to security and corporate governance. Designated roles do not show up directly in the org chart.",
+
+  "Job description":
+  "A job description is effectively a bundle of <term>roles</term> (both <term ref=\"titular role\">titular</term> and <term ref=\"designated role\">designated</term>). Technically, a job description is simply a role which implies implies one or more other roles.",
+
+  "Role":
+  "Roles designate a set of responsibilities and powers within a Company. A role is either <term ref=\"titular role\">titular</term> or <term ref=\"designated role\">designated</term>. A <term>job description</term> consists of a collection of roles.",
+
+  "Titular roles":
+  "A <term>role</term> designating primary responsibilities and powers which define the nature of an individuals activities within the Company. Titular roles show up as titles in the org chart."
+}
