@@ -16,5 +16,5 @@ TODO
 ## Manual reviews
 
 1. Create a folder in the [Security and compliance shared drive]({{ .SHARED_DRIVE_SECURITY_AND_COMPLIANCE }}) titled 'Job descriptions and roles review' prepended with the current year and month. E.g: '2021-06 Job descriptions and roles review'.
-2. Refer to the [Company Jobs and Roles Reference]({{ .staff.COMPANY_JOBS_AND_ROLES_REFERENCE }}) 
-2. For each <term>job description</term>,
+2. Refer to the [Company Jobs and Roles Reference department heads]({{ .staff.COMPANY_JOBS_AND_ROLES_REFERENCE }}#department-heads), and create a document titled like '2021-06 Head of Marketing job descriptions and roles review', with the appropriate date and department head title.
+3. For each <term>job description</term>,
