@@ -65,10 +65,11 @@ echo -n "Test document parsing: "
 make -f .build/main.makefile --silent || { echo "FAIL"; EXIT=1; }
 if (( $EXIT == 0 )); then echo "PASS"; fi
 
-echo -n "Expect $POLICY_COUNT files; "
+EXPECT_OUT=$(( $POLICY_COUNT + 1 )) # because generated Glossary.md
+echo -n "Expect $EXPECT_OUT files; "
 OUT_FILES=$(find test-out -type f | wc -l | awk '{print $1}')
 echo -n "found $OUT_FILES: "
-if (( $OUT_FILES == $POLICY_COUNT )); then
+if (( $OUT_FILES == $EXPECT_OUT )); then
   echo "PASS"
 else
   echo "FAIL (found $OUT_FILES)"
