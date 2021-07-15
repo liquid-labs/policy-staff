@@ -6,7 +6,7 @@ These procedures dealing with offboarding a staff member who no longer works for
 
 ## Procedures
 
-### Remove user from Google Suite
+### Secure and transfer Google Workspace email and data
 
 1. Clear user data from their mobile devices, when possible.
    1. Locate the user in the [Google admin user's console](https://admin.google.com/ac/users).
@@ -65,7 +65,8 @@ These procedures dealing with offboarding a staff member who no longer works for
    ```
    3. Save the file in the archive folder created earlier.
    4. Email the contacts file to the offboarding user's manager.
-
+9. Once all the transfers have been completed, the user account can be deleted through the Google Workspace users page.
+   * Set a reminder for yourself if you need to check on the account and confirm that all transfer and archival processes have completed.
 
 #### References
 
