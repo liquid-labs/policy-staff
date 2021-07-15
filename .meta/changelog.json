@@ -1,0 +1,16 @@
+[
+  {
+    "issues": [
+      "https://github.com/Liquid-Labs/policy-staff/issues/9"
+    ],
+    "branch": "2021.07.15-zane@liquid-labs.com-document_offboarding_technical_process",
+    "startTimestampLocal": "2021-07-15-1423 UTC",
+    "branchFrom": "dcfdfa2750dd31a9ef2a6b8eae19b7355c9221b5",
+    "description": "Document offboarding technical process",
+    "workInitiator": "zane@liquid-labs.com",
+    "branchInitiator": "zane@liquid-labs.com",
+    "involvedProjects": [
+      "@liquid-labs/policy-staff"
+    ]
+  }
+]
