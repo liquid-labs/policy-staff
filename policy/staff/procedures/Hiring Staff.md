@@ -66,7 +66,7 @@ This document lays out the procedures utilized in hiring including job postings,
 ### Prep and post job
 
 1. After completion of the content and requisition reviews, the <role>HR Agent</role> begins the posting process.
-2. Under 'Hiring' in the shared 'Staff' folder (in Google Drive), create a new folder named with the current date and job title: '<YYYY-MM-DD> <title>'. E.g., "2021-06-15 Human Resource Agent".
+2. In the Google shared drive 'Staff' under the Hiring -> [Records]({{ .STAFF_HIRING_RECORDS_FOLDER_URL }}), create a new folder named with the current date and job title: '<YYYY-MM-DD> <title>'. E.g., "2021-06-15 Human Resource Agent".
 3. Within that folder, create:
   * a 'Candidates' folder.
   * an 'Interview resources' folder.
@@ -89,9 +89,7 @@ _Guidelines_ : Candidate screening is used narrow the field of potential candida
 2. Each incoming responses is screened for:
    * the necessary skills or other attributes required by the position.
    * a reasonable response to all the [candidate filter questions](#candidate-filter-questions).
-3. In the Hiring Candidates spreadsheet created earlier, add an entry for each candidate to either the "pool" or "excluded" sheet in the spreadsheet.
-   * For excluded candidates, give a brief, concrete reason as to why. E.g.: "bob@acme.com EXCLUDED for lack of Java experience", or "sue@foo.com EXCLUDED for failing to answer the filter questions"
-   * For passing candidates included in the pool, fill out the record rating each candidate to generate an initial ranking value according the [candidate forced ranking guidelines](#candidate-forced-ranking-guidelines) and any specific instructions associated with this particular hire.
+3. In the Hiring Candidates spreadsheet created earlier, add an entry for each candidate and fill out the 'screening' records.
 4. Using best judgement, any screener may advance the initial candidate interview task to 'in progress' after ensuring the initial candidate interview task description contains links to:
    * the Candidate Tracker spreadsheet, and
    * the 'Initial Interview Template'.
