@@ -82,7 +82,7 @@
        }
     }
   },
-  "business" {
+  "business": {
     "org-chart-review": {
       "condition": "ALWAYS",
       "weightingFactor": 1,
