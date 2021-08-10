@@ -11,6 +11,7 @@ SETTINGS="$(cat <<EOF
 HIRING_CANDIDATES_TRACKER_TEMPLATE_URL=https://foo.com/ctt
 HIRING_INITIAL_INTERVIEW_TEMPLATES="https://drive.google.com/blah/blah"
 STAFF_DEFAULT_OPENINGS_POSTED_AT="Indeed, Monster.com"
+STAFF_HIRING_RECORDS_FOLDER_URL="https://drive.google.com/foo/foo"
 
 
 HAS_SENSITIVE_DATA=1
