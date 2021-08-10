@@ -12,5 +12,19 @@
     "involvedProjects": [
       "@liquid-labs/policy-staff"
     ]
+  },
+  {
+    "issues": [
+      "https://github.com/Liquid-Labs/policy-staff/issues/11"
+    ],
+    "branch": "2021.08.10-zane@liquid-labs.com-updating_hiring_procedure",
+    "startTimestampLocal": "2021-08-10-1442 UTC",
+    "branchFrom": "d3ae59932ba9ea6adffa63b3dfeb34611de72ffb",
+    "description": "Updating hiring procedure",
+    "workInitiator": "zane@liquid-labs.com",
+    "branchInitiator": "zane@liquid-labs.com",
+    "involvedProjects": [
+      "@liquid-labs/policy-staff"
+    ]
   }
 ]
