@@ -8,6 +8,11 @@ set -o pipefail
 MY_PACKAGE='@liquid-labs/policy-staff'
 
 SETTINGS="$(cat <<EOF
+HIRING_CANDIDATES_TRACKER_TEMPLATE_URL=https://foo.com/ctt
+HIRING_INITIAL_INTERVIEW_TEMPLATES="https://drive.google.com/blah/blah"
+STAFF_DEFAULT_OPENINGS_POSTED_AT="Indeed, Monster.com"
+
+
 HAS_SENSITIVE_DATA=1
 TRACKS_STAFF=1
 GEN_SEC_LVL=3
