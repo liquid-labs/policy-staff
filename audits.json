@@ -5,7 +5,7 @@
       "weightingFactor": 1,
       "period": 360,
       "cure": {
-        "procedre": "security/procedures/General Security Awareness Training.md",
+        "procedure": "security/procedures/General Security Awareness Training.md",
         "advice": "Schedule Gen Sec training for ${id} ASAP."
        }
     },
@@ -80,6 +80,17 @@
         "procedure": "TODO",
         "advice": "Schedule policy awareness training ASAP."
        }
+    }
+  },
+  "business" {
+    "org-chart-review": {
+      "condition": "ALWAYS",
+      "weightingFactor": 1,
+      "period": 360,
+      "cure": {
+        "procedure": "TODO",
+        "advice": "Initiate org chart review ASAP."
+      }
     }
   }
 }
