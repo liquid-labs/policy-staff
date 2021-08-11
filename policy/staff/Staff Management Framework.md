@@ -1,8 +1,8 @@
-# Hiring Framework
+# Staff Management Framework
 
 ## Purpose and scope
 
-This document provides an overview of Company Policy as it pertains to hiring staff. This framework applies to both contractors and employees and the terms "staff" and "hires" are used to both contractors and employees.
+This document provides an overview of Company Policy as it pertains to hiring, onboarding, firing, and generally managing staff. This framework applies to both contractors and employees and the terms "staff" and "hires" are used to both contractors and employees.
 
 ## Policy references
 
