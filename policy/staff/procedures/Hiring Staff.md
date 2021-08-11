@@ -6,18 +6,22 @@ This document lays out the procedures utilized in hiring including job postings,
 
 ## Procedures
 
+
+
 **Process overview** :
 1. [Create a hiring epic + individual tasks.](#create-hiring-epic)
 2. Reviews:
    1. [HR review of post and content.](#review-job-post-content)
    2. [Budgetary review and approval.](#approve-hiring-requisition)
 3. [Prep and post position.](#prep-and-post-job)
-4. [Screen and rank candidates.](#screen-and-rank-candidates)
-5. [Interview candidates](#interview-candidates) :
-   2. [Initial interview.](#initial-candidate-interviews)
-   3. [In-depth interview](#in-depth-candidate-interviews) (where applicable).
-6. [Vet final candidate(s).](#vet-final-candidates)
+4. (sometimes) [Screen and rank candidates.](#screen-and-rank-candidates)
+5. (sometimes) [Interview candidates](#interview-candidates) :
+   1. (sometimes) [Initial interview.](#initial-candidate-interviews)
+   2. (sometimes) [In-depth interview](#in-depth-candidate-interviews) (where applicable).
+6. (sometimes) [Vet final candidate(s).](#vet-final-candidates)
 7. [Make offer.](#make-offer)
+
+Notice that the screening, interview, and vetting are sometimes required, sometimes not. It depends on the role and circumstances of the hire. What to include is determined when [creating the hiring epic](#create-hiring-epic).
 
 **Roles** :
 1. Responsible manager : the new hire's immediate manager.
@@ -28,14 +32,15 @@ This document lays out the procedures utilized in hiring including job postings,
 
 1. There are no restrictions on who can create a hiring epic, though this is usually done by the responsible manager, the <role>department head</role>, or by an <role>HR Agent</role> at the request of a manager or head.
    * When hiring a CEO, where the responsible manager would be the Board of Directors, the Board shall appoint an individual—typically the Chairman of the Board—to be assigned the epic.
-2. The epic description must contain a 'Post description', 'Posting guidelines', and 'Selection guidelines' sections.
-2. Verify/create the following tasks and assignments within the epic:
+2. The epic description must contain a 'Hiring steps', 'Post description', 'Posting guidelines', and 'Selection guidelines' sections.
+3. Update the 'Hiring steps' section to describe whether or not screening and interviews are going to be required and/or truncated.
+4. Verify/create the following tasks and assignments within the epic:
    1. HR review for policy compliance (assigned to HR Agent or Head of HR).
    2. Requisition review and approval (assigned to department head, senior manager, or the Board of Directors).
    3. Prep and post the position (assigned to HR Agent or Head of HR).
-   4. Screen candidates (assigned to HR Agent, Head of HR).
-   5. Candidate interviews (assigned to the epic owner).
-   6. Candidate vetting (assigned to HR Agent or Head of HR).
+   4. (If used) screen candidates (assigned to HR Agent, Head of HR).
+   5. (If used) candidate interviews (assigned to the epic owner).
+   6. Candidate vetting (assigned to HR Agent or Head of HR). Note that vetting is not always required, but the task is always created as it is HR's job to dmake the determination.
    7. Make an offer (assigned to HR Agent or Head of HR).
 3. In the epic description 'Post description', provide the posting details according to the [job post content guidelines](#job-post-content-guidelines), clearly specifying the desired post header, summary, description, and candidate filter questions.
 4. Where modifications to the default process are made:
@@ -66,16 +71,17 @@ This document lays out the procedures utilized in hiring including job postings,
 ### Prep and post job
 
 1. After completion of the content and requisition reviews, the <role>HR Agent</role> begins the posting process.
-2. In the Google shared drive 'Staff' under the Hiring -> [Records]({{ .STAFF_HIRING_RECORDS_FOLDER_URL }}), create a new folder named with the current date and job title: '<YYYY-MM-DD> <title>'. E.g., "2021-06-15 Human Resource Agent".
-3. Within that folder, create:
+2. If the epic description indicates that the screening and interview steps are not required, then skip to step number 6.
+3. In the Google shared drive 'Staff' under the Hiring -> [Records]({{ .STAFF_HIRING_RECORDS_FOLDER_URL }}), create a new folder named with the current date and job title: '<YYYY-MM-DD> <title>'. E.g., "2021-06-15 Human Resource Agent".
+4. Within that folder, create:
   * a 'Candidates' folder.
   * an 'Interview resources' folder.
   * a "Candidates Tracker" spreadsheet titled ''<YYYY-MM-DD> <title> Candidates' using the [Hiring Candidates Tracker Template]({{ .HIRING_CANDIDATES_TRACKER_TEMPLATE_URL }}).
   * an "Initial Interview Template" form (using Google Forms). Unless otherwise instructed, use a template from the [Interview Templates]({{ .HIRING_INITIAL_INTERVIEW_TEMPLATES }}) folder as appropriate to the role, if available and using a default or ad-hoc template as necessary.
   * an "In-Depth Interview Template" form (using Google Forms). Unless otherwise instructed, use a template from the [Interview Templates]({{ .HIRING_INITIAL_INTERVIEW_TEMPLATES }}) folder as appropriate to the role, if available  and using a default or ad-hoc template as necessary.
-4. Update the Candidate Tracker embedded ranking logic per hiring specific instructions.
-5. Unless otherwise instructed, announce the new opening internally via email to 'team@{{ .COMPANY_EMAIL_DOMAIN }}' internally using the 'hiring@{{ .COMPANY_EMAIL_DOMAIN }}' address as the originator.
-6. Unless otherwise specified in the posting task, external posts are made using the 'hiring@{{ .COMPANY_EMAIL_DOMAIN }}' account to {{ .STAFF_DEFAULT_OPENINGS_POSTED_AT }}.
+5. Update the Candidate Tracker embedded ranking logic per hiring specific instructions.
+6. Unless otherwise instructed, announce the new opening internally via email to 'team@{{ .COMPANY_EMAIL_DOMAIN }}' internally using the 'hiring@{{ .COMPANY_EMAIL_DOMAIN }}' address as the originator.
+7. Unless otherwise specified in the posting task, external posts are made using the 'hiring@{{ .COMPANY_EMAIL_DOMAIN }}' account to {{ .STAFF_DEFAULT_OPENINGS_POSTED_AT }}.
    * Where possible, the <role>HR Agent</role> will make the postings themselves.
    * In cases where the post should come from another individual, the <role>HR Agent</role> will alert the individual and confirm that the posting has been made.
 
@@ -189,7 +195,13 @@ Filter questions are generally domain relevant. E.g.:
 * For a sales position: "In 2-3 sentences, describe your approach to cold calling."
 * For an HR position: "In 2-3 sentences, describe how you would deal with a sensitive staff complaint against a manager."
 
-Appropriate filter questions are maintained as part of the internal job and roles definition and available, by role, in the Hiring Filter Questions Reference (TODO: create and link .staff.HIRING_FILTER_QUESTIONS_REFERENCE).
+Appropriate filter questions are maintained as part of the internal job and roles definition and available, by role, in the Hiring Guidelines Reference (TODO: create and link .staff.HIRING_GUIDELINES_REFERENCE).
+
+## Determining hiring requirements guidelines
+
+* Default requirements are specified for each role in the Hiring Guidelines Reference (TODO: create and link .staff.HIRING_GUIDELINES_REFERENCE).
+* So long as the plan as captured in the epic is approved by the department head or senior management (as specified in the Hiring Guidelines Reference (TODO: create and link .staff.HIRING_GUIDELINES_REFERENCE)), the screening and/or interview steps may be skipped or truncated from the baseline procedure.
+* Where required, candidates _MUST_ be vetted.
 
 ## Posting guidelines
 
