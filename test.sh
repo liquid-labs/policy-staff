@@ -9,7 +9,8 @@ MY_PACKAGE='@liquid-labs/policy-staff'
 
 SETTINGS="$(cat <<EOF
 HIRING_CANDIDATES_TRACKER_TEMPLATE_URL=https://foo.com/ctt
-HIRING_INITIAL_INTERVIEW_TEMPLATES="https://drive.google.com/blah/blah"
+HIRING_INTERVIEW_TEMPLATES_FOLDER="https://drive.google.com/blah/blah"
+HIRING_DEFAULT_INTERVIEW_TEMPLATE="https://drive.google.com/bar/baz"
 STAFF_DEFAULT_OPENINGS_POSTED_AT="Indeed, Monster.com"
 STAFF_HIRING_RECORDS_FOLDER_URL="https://drive.google.com/foo/foo"
 

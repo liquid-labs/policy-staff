@@ -77,8 +77,7 @@ Notice that the screening, interview, and vetting are sometimes required, someti
   * a 'Candidates' folder.
   * an 'Interview resources' folder.
   * a "Candidates Tracker" spreadsheet titled ''<YYYY-MM-DD> <title> Candidates' using the [Hiring Candidates Tracker Template]({{ .HIRING_CANDIDATES_TRACKER_TEMPLATE_URL }}).
-  * an "Initial Interview Template" form (using Google Forms). Unless otherwise instructed, use a template from the [Interview Templates]({{ .HIRING_INITIAL_INTERVIEW_TEMPLATES }}) folder as appropriate to the role, if available and using a default or ad-hoc template as necessary.
-  * an "In-Depth Interview Template" form (using Google Forms). Unless otherwise instructed, use a template from the [Interview Templates]({{ .HIRING_INITIAL_INTERVIEW_TEMPLATES }}) folder as appropriate to the role, if available  and using a default or ad-hoc template as necessary.
+  * an "In-Depth Interview Template" form (a Google Doc). Unless otherwise instructed, use a template from the [Interview Templates]({{ .HIRING_INTERVIEW_TEMPLATES_FOLDER }}) folder as appropriate to the role, if available; use the [default template]({{ .HIRING_DEFAULT_INTERVIEW_TEMPLATE }}) or create an ad-hoc template as necessary.
 5. Update the Candidate Tracker embedded ranking logic per hiring specific instructions.
 6. Unless otherwise instructed, announce the new opening internally via email to 'team@{{ .COMPANY_EMAIL_DOMAIN }}' internally using the 'hiring@{{ .COMPANY_EMAIL_DOMAIN }}' address as the originator.
 7. Unless otherwise specified in the posting task, external posts are made using the 'hiring@{{ .COMPANY_EMAIL_DOMAIN }}' account to {{ .STAFF_DEFAULT_OPENINGS_POSTED_AT }}.
