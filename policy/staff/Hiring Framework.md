@@ -6,8 +6,12 @@ This document provides an overview of Company Policy as it pertains to hiring st
 
 ## Policy references
 
-* [Hiring policies]({{ .staff.policies.STAFF_MANAGEMENT_POLICY }}#hiring)
-* [Hiring standards]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#hiring)
-* [Hiring procedures]({{ .staff.procedures.HIRING_STAFF }})
-* [Onboarding procedures]({{ .staff.procedures.ONBOARDING_STAFF }})
-* [Offboarding procedures]({{ .staff.procedures.OFFBOARDING_STAFF }})
+* Policy:
+   * [Hiring policies]({{ .staff.policies.STAFF_MANAGEMENT_POLICY }}#hiring)
+* Standards:
+   * [Hiring standards]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#hiring)
+* Procedures:
+   * [Hiring procedures]({{ .staff.procedures.HIRING_STAFF }})
+   * [Onboarding procedures]({{ .staff.procedures.ONBOARDING_STAFF }})
+   * [Offboarding procedures]({{ .staff.procedures.OFFBOARDING_STAFF }})
+   * [Review Job Descirptions and Roles]({{ .staff.procedures.REVIEW_JOB_DESCRIPTIONS_AND_ROLES }})
