@@ -1,4 +1,0 @@
-UUID	Subsection	Statement	Absolute Condition	Individual Condition	Audit Condition	Refs
-
-F99B6B75-B410-48EF-9F65-A005EC6D398A	General	*Internal support number*: The <role>Security Officer</role> ensures constant monitoring of an internal support number at {{ .INTERNAL_SUPPORT_NUMBER }}. This number is monitored 24x7.	ALWAYS	ALWAYS	IS_FULL_AUDIT	-
-D1BA05BC-A600-482F-BF6A-8B659BCA3565	General	*Internal support email*: The <role>Security Officer</role> ensures constant monitoring of an internal support email at {{ .INTERNAL_SUPPORT_EMAIL }}. This number is monitored 24x7.	ALWAYS	ALWAYS	IS_FULL_AUDIT	-
