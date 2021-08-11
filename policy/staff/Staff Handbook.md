@@ -6,7 +6,7 @@ The Staff Handbook provides quick reference regarding general duties of and bene
 
 ## Internal support
 
-{{/* exttmpl */}}{{ template "staff/standards/Internal Company Support Standards - items" . }}
+TODO: list internal support numbers
 
 ## General staff duties
 
