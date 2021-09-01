@@ -5,7 +5,7 @@
   "scripts": {
     "test": "./test.sh",
     "preversion": "npm test",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push upstream v${npm_package_version}"
   },
   "keywords": [],
   "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
