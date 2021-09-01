@@ -65,7 +65,7 @@ EXIT=0
 echo "Preparing..."
 rm -rf .build test-out
 ln -s "$PWD" node_modules/${MY_PACKAGE}
-POLICY_COUNT=$(cd node_modules/@liquid-labs && find -L . -path "./policy-*" -name "*.md" -not -path "*/node_modules/*" -not -path "*/.yalc/*" | wc -l | awk '{print $1}')
+POLICY_COUNT=$(cd node_modules/@liquid-labs && find -L policy-* \( -path "policy-*/policy/*" -o -path "policy-*/src/docs/*" \) -name "*.md" -not -path "*/node_modules/*" -not -path "*/.yalc/*" | wc -l | awk '{print $1}')
 mkdir .build
 echo "${SETTINGS}" > .build/settings.sh
 
