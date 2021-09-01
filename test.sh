@@ -14,6 +14,8 @@ HIRING_DEFAULT_INTERVIEW_TEMPLATE="https://drive.google.com/bar/baz"
 STAFF_DEFAULT_OPENINGS_POSTED_AT="Indeed, Monster.com"
 STAFF_HIRING_RECORDS_FOLDER_URL="https://drive.google.com/foo/foo"
 
+ATLASSIAN_ADMIN_PORTAL_URL="https://admin.atlassian.com/s/blahblahblah/users"
+
 
 HAS_SENSITIVE_DATA=1
 TRACKS_STAFF=1
