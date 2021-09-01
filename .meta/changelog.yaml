@@ -1,0 +1,30 @@
+- issues:
+    - https://github.com/Liquid-Labs/policy-staff/issues/11
+  branch: 2021.08.10-zane@liquid-labs.com-updating_hiring_procedure
+  branchFrom: d3ae59932ba9ea6adffa63b3dfeb34611de72ffb
+  workInitiator: zane@liquid-labs.com
+  branchInitiator: zane@liquid-labs.com
+  involvedProjects:
+    - "@liquid-labs/policy-staff"
+  startTimestamp: 2021-08-10T14:42:00.000Z
+  startEpochMillis: 1628606520000
+  changeNotes:
+    - Updating hiring procedure
+  securityNotes: []
+  drpBcpNotes: []
+  backoutNotes: []
+- issues:
+    - https://github.com/Liquid-Labs/policy-staff/issues/9
+  branch: 2021.07.15-zane@liquid-labs.com-document_offboarding_technical_process
+  branchFrom: dcfdfa2750dd31a9ef2a6b8eae19b7355c9221b5
+  workInitiator: zane@liquid-labs.com
+  branchInitiator: zane@liquid-labs.com
+  involvedProjects:
+    - "@liquid-labs/policy-staff"
+  startTimestamp: 2021-07-15T14:23:00.000Z
+  startEpochMillis: 1626358980000
+  changeNotes:
+    - Document offboarding technical process
+  securityNotes: []
+  drpBcpNotes: []
+  backoutNotes: []
