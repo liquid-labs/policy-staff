@@ -1,6 +1,6 @@
 {
   "name": "@liquid-labs/policy-staff",
-  "version": "1.0.0-alpha.17",
+  "version": "1.0.0-alpha.18",
   "description": "Liquid Policy component dealing with hiring and staff.",
   "scripts": {
     "test": "./test/test.sh",
