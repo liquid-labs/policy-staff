@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.17",
   "description": "Liquid Policy component dealing with hiring and staff.",
   "scripts": {
-    "test": "./test.sh",
+    "test": "./test/test.sh",
     "preversion": "npm test",
     "postversion": "git push upstream v${npm_package_version}"
   },
