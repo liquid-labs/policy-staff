@@ -8,3 +8,4 @@
 
 ## Release 1.0.0-alpha.18
 * _**hotfix**_: updated test to make settings reusable _(zane@liquid-labs.com; 2021-09-07T17:47:33.000Z)_
+* _**hotfix**_: updated CHANGELOGE.md for release (by liq) _(zane@liquid-labs.com; 2021-09-07T17:47:41.000Z)_
