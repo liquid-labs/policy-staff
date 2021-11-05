@@ -28,3 +28,18 @@
   securityNotes: []
   drpBcpNotes: []
   backoutNotes: []
+- startTimestamp: 2021-11-05T19:11:42.541Z
+  startEpochMillis: 1636139502541
+  issues:
+    - https://github.com/Liquid-Labs/policy-staff/issues/13
+  branch: 2021.11.05-zane@liquid-labs.com-updates_to_offboarding_staff
+  branchFrom: 6f77827aed72c154b2d2bd5497e96842aabedce9
+  workInitiator: zane@liquid-labs.com
+  branchInitiator: zane@liquid-labs.com
+  involvedProjects:
+    - "@liquid-labs/policy-staff"
+  changeNotes:
+    - Updates to Offboarding Staff
+  securityNotes: []
+  drpBcpNotes: []
+  backoutNotes: []
