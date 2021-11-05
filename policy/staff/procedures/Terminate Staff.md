@@ -6,7 +6,24 @@ These procedures dealing with terminating a staff member who no longer works for
 
 ## Procedures
 
+### Termination and collection of physical Company assets
+
+This is performed by a <role>Human Resources Agent</role>.
+
+1. Prepare a checklist of actions including the collection of physical keys and issued equipment.
+2. For remote staff with any physical items to be returned, either:
+   * schedule yourself or another qualified staff member to visit the terminated staff member's home or remote working location on the day of termination to pick up all the items, or
+   * prepare and ship an envelop or box with an addressed and postage paid return shipping box.
+2. Prepare a private space:
+   * For in-office staff, reserve an office, meeting room, or other private space.
+   * For remote staff, schedule a Zoom meeting and find a private place to attend.
+3. Inform the staff member of the termination politely.
+4. Collect all physical items including keys and issued equipment, or, for remote staff, inform the staff that either someone will be by shortly to collect the items or that they should receive a prepared shipping materials to ship the items back to the Company.
+5. Inform the staff member of any residual rights and obligations, such as non-competes, severance, etc.
+
 ### Secure and transfer Google Workspace email and data
+
+This is performed by a <role>Workspace Admin</role>.
 
 1. Clear user data from their mobile devices, when possible.
    1. Locate the user in the [Google admin user's console](https://admin.google.com/ac/users).

@@ -12,6 +12,6 @@ This document provides an overview of Company Policy as it pertains to hiring, o
    * [Staff management standards]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}): covers [general]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#general), [hiring]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#hiring), [internal support]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#internal-support), and [compliance]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#compliance) standards.
 * Procedures:
    * [Hiring Staff]({{ .staff.procedures.HIRING_STAFF }})
-   * [Onboard Staff]({{ .staff.procedures.ONBOARDING_STAFF }})
-   * [Terminate Staff]({{ .staff.procedures.OFFBOARDING_STAFF }})
+   * [Onboard Staff]({{ .staff.procedures.ONBOARD_STAFF }})
+   * [Terminate Staff]({{ .staff.procedures.TERMINATE_STAFF }})
    * [Review Job Descirptions and Roles]({{ .staff.procedures.REVIEW_JOB_DESCRIPTIONS_AND_ROLES }})
