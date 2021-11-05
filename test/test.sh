@@ -22,8 +22,11 @@ echo "Preparing..."
 rm -rf .build test-out
 ln -s "$PWD" node_modules/${MY_PACKAGE}
 POLICY_COUNT=$(cd node_modules/@liquid-labs && find -L policy-* \( -path "policy-*/policy/*" -o -path "policy-*/src/docs/*" \) -name "*.md" -not -path "*/node_modules/*" -not -path "*/.yalc/*" | wc -l | awk '{print $1}')
-mkdir .build
-cat ./test/settings.sh > .build/settings.sh
+mkdir .build test-out
+for PROJ in projects; do
+  npm explore @liquid-labs/policy-${PROJ} -- cat ./test/settings.sh >> .build/settings.sh
+done
+cat ./test/settings.sh >> .build/settings.sh
 
 echo -n "Test document parsing: "
 "${BIN}/liq-init-docs" run test-out > /dev/null || { echo "FAIL"; EXIT=1; }
