@@ -15,3 +15,6 @@
 
 ## Release 1.0.0-alpha.20
 * Updates to Offboarding Staff _(zane@liquid-labs.com; 2021-11-05T19:11:42.541Z)_
+
+## Release 1.0.0-alpha.21
+* Convert audits DB to a list _(zane@liquid-labs.com; 2021-11-12T21:33:10.536Z)_
