@@ -6,6 +6,8 @@
   branchInitiator: zane@liquid-labs.com
   involvedProjects:
     - "@liquid-labs/policy-staff"
+    - "@liquid-labs/policy-devices"
+    - "@moca/moca-financial-policy"
   startTimestamp: 2021-08-10T14:42:00.000Z
   startEpochMillis: 1628606520000
   changeNotes:
@@ -42,6 +44,25 @@
     - "@liquid-labs/policy-staff"
   changeNotes:
     - Updates to Offboarding Staff
+  securityNotes: []
+  drpBcpNotes: []
+  backoutNotes: []
+- startTimestamp: 2021-11-12T21:33:10.536Z
+  startEpochMillis: 1636752790536
+  issues:
+    - https://github.com/Liquid-Labs/policies-model/issues/8
+  branch: 2021.11.06-zane@liquid-labs.com-convert_audits_db_to
+  branchFrom: 4372ad6441fb95f5658c3c0ce0a6b956c33d956b
+  workInitiator: zane@liquid-labs.com
+  branchInitiator: zane@liquid-labs.com
+  involvedProjects:
+    - "@liquid-labs/policies-model"
+    - "@liquid-labs/orgs-model"
+    - "@liquid-labs/policy-projects"
+    - "@liquid-labs/liq-ext-audit-vendors"
+    - "@liquid-labs/policy-staff"
+  changeNotes:
+    - Convert audits DB to a list
   securityNotes: []
   drpBcpNotes: []
   backoutNotes: []
