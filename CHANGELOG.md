@@ -18,3 +18,5 @@
 
 ## Release 1.0.0-alpha.21
 * Convert audits DB to a list _(zane@liquid-labs.com; 2021-11-12T21:33:10.536Z)_
+* _**hotfix**_: updated CHANGELOGE.md for release (by liq) _(zane@liquid-labs.com; 2021-11-15T18:04:14.000Z)_
+* _**hotfix**_: update test logic _(zane@liquid-labs.com; 2021-11-15T18:40:02.000Z)_
