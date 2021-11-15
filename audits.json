@@ -1,96 +1,112 @@
-{
-  "staff": {
-    "staff-gen-sec-training": {
-      "condition": "REQUIRES_UNIVERSAL_GEN_SEC_TRAINING",
-      "weightingFactor": 1,
-      "period": 360,
-      "cure": {
-        "procedure": "security/procedures/General Security Awareness Training.md",
-        "advice": "Schedule Gen Sec training for ${id} ASAP."
-       }
-    },
-    "staff-anti-malware-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_ANTIVIRUS",
-      "weightingFactor": 1,
-      "period": 180,
-      "cure": {
-        "procedure": "devices/procedures/Individual Anti-Malware Setup.md",
-        "advice": "Have ${id} confirm anti-malware installation."
-      }
-    },
-    "staff-firewall-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_FIREWALL",
-      "weightingFactor": 1,
-      "period": 180,
-      "cure": {
-        "procedure": "devices/procedures/Individual Firewall Setup.md",
-        "advice": "Have ${id} confirm firewall installation."
-      }
-    },
-    "staff-vpn-audit": {
-      "condition": "REQUIRES_VPN && HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
-      "weightingFactor": 0.9,
-      "period": 180,
-      "cure": {
-        "procedure": "devices/procedures/Individual VPN Setup.md",
-        "advice": "Have ${id} confirm VPN installation."
-      }
-    },
-    "staff-encrypted-hd-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
-      "weightingFactor": 1,
-      "period": 360,
-      "cure": {
-        "procedure": "devices/procedures/Hard Drive Encryption.md",
-        "advice": "Have ${id} confirm HD encryption configuration."
-      }
-    },
-    "staff-pw-manager-audit": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
-      "weightingFactor": 1.1,
-      "period": 360,
-      "cure": {
-        "procedure": "devices/procedures/Individual Password Manager Installation.md",
-        "advice": "Have ${id} confirm password manager installation."
-      }
-    },
-    "staff-secure-coding-training": {
-      "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && HAS_SOFTWARE_ENGINEER_ROLE",
-      "weightingFactor": 1.1,
-      "period": 360,
-      "cure": {
-        "procedure": "security/procedures/Secure Coding Training.md",
-        "advice": "Schedule secure coding training for ${id} ASAP."
-       }
-    },
-    "staff-background-check": {
-      "condition": "ALWAYS",
-      "weightingFactor": 1.1,
-      "period": 1800,
-      "cure": {
-        "procedure": "TODO",
-        "advice": "Perform background check ASAP."
-       }
-    },
-    "staff-policy-awareness": {
-      "condition": "ALWAYS",
-      "weightingFactor": 1.1,
-      "period": 360,
-      "cure": {
-        "procedure": "TODO",
-        "advice": "Schedule policy awareness training ASAP."
-       }
+[
+  {
+    "name": "org-chart-review",
+    "target": "business",
+    "condition": "ALWAYS",
+    "weightingFactor": 1,
+    "period": 360,
+    "cure": {
+      "procedure": "TODO",
+      "advice": "Initiate org chart review ASAP."
     }
   },
-  "business": {
-    "org-chart-review": {
-      "condition": "ALWAYS",
-      "weightingFactor": 1,
-      "period": 360,
-      "cure": {
-        "procedure": "TODO",
-        "advice": "Initiate org chart review ASAP."
-      }
+  {
+    "name": "staff-anti-malware-audit",
+    "target": "staff",
+    "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_ANTIVIRUS",
+    "weightingFactor": 1,
+    "period": 180,
+    "cure": {
+      "procedure": "devices/procedures/Individual Anti-Malware Setup.md",
+      "advice": "Have ${id} confirm anti-malware installation."
+    }
+  },
+  {
+    "name": "staff-background-check",
+    "target": "staff",
+    "condition": "ALWAYS",
+    "weightingFactor": 1.1,
+    "period": 1800,
+    "cure": {
+      "procedure": "TODO",
+      "advice": "Perform background check ASAP."
+    }
+  },
+  {
+    "name": "staff-encrypted-hd-audit",
+    "target": "staff",
+    "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+    "weightingFactor": 1,
+    "period": 360,
+    "cure": {
+      "procedure": "devices/procedures/Hard Drive Encryption.md",
+      "advice": "Have ${id} confirm HD encryption configuration."
+    }
+  },
+  {
+    "name": "staff-firewall-audit",
+    "target": "staff",
+    "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR && !USES_CENTRALIZED_FIREWALL",
+    "weightingFactor": 1,
+    "period": 180,
+    "cure": {
+      "procedure": "devices/procedures/Individual Firewall Setup.md",
+      "advice": "Have ${id} confirm firewall installation."
+    }
+  },
+  {
+    "name": "staff-gen-sec-training",
+    "target": "staff",
+    "condition": "REQUIRES_UNIVERSAL_GEN_SEC_TRAINING",
+    "weightingFactor": 1,
+    "period": 360,
+    "cure": {
+      "procedure": "security/procedures/General Security Awareness Training.md",
+      "advice": "Schedule Gen Sec training for ${id} ASAP."
+    }
+  },
+  {
+    "name": "staff-policy-awareness",
+    "target": "staff",
+    "condition": "ALWAYS",
+    "weightingFactor": 1.1,
+    "period": 360,
+    "cure": {
+      "procedure": "TODO",
+      "advice": "Schedule policy awareness training ASAP."
+    }
+  },
+  {
+    "name": "staff-pw-manager-audit",
+    "target": "staff",
+    "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+    "weightingFactor": 1.1,
+    "period": 360,
+    "cure": {
+      "procedure": "devices/procedures/Individual Password Manager Installation.md",
+      "advice": "Have ${id} confirm password manager installation."
+    }
+  },
+  {
+    "name": "staff-secure-coding-training",
+    "target": "staff",
+    "condition": "HAS_SENSITIVE_DATA_HANDLER_ROLE && HAS_SOFTWARE_ENGINEER_ROLE",
+    "weightingFactor": 1.1,
+    "period": 360,
+    "cure": {
+      "procedure": "security/procedures/Secure Coding Training.md",
+      "advice": "Schedule secure coding training for ${id} ASAP."
+    }
+  },
+  {
+    "name": "staff-vpn-audit",
+    "target": "staff",
+    "condition": "REQUIRES_VPN && HAS_SENSITIVE_DATA_HANDLER_ROLE && IS_CONTRACTOR",
+    "weightingFactor": 0.9,
+    "period": 180,
+    "cure": {
+      "procedure": "devices/procedures/Individual VPN Setup.md",
+      "advice": "Have ${id} confirm VPN installation."
     }
   }
-}
+]
