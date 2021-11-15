@@ -6,6 +6,8 @@
   branchInitiator: zane@liquid-labs.com
   involvedProjects:
     - "@liquid-labs/policy-staff"
+    - "@liquid-labs/policy-devices"
+    - "@moca/moca-financial-policy"
   startTimestamp: 2021-08-10T14:42:00.000Z
   startEpochMillis: 1628606520000
   changeNotes:
