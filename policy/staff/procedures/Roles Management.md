@@ -1,4 +1,4 @@
-# Review Job Descriptions and Roles
+# Roles Management
 _(SOC 2 Type I ref 1.2, SOC 2 Type II ref 1.2)_
 
 ## Purpose and scope
@@ -7,13 +7,15 @@ This document discusses the procedures used to review Company <term>roles</term>
 
 ## Procedures
 
-## Using liq
+### Roles and org chart review
+
+#### Using liq
 
 The liq mediated procedure automates portions of the [manual review procedure](#manual-reviews).
 
 TODO
 
-## Manual reviews
+#### Manual reviews
 
 1. Create a folder in the [Security and compliance shared drive]({{ .SHARED_DRIVE_SECURITY_AND_COMPLIANCE }}) titled 'Job descriptions and roles review' prepended with the current year and month. E.g: '2021-06 Job descriptions and roles review'.
 2. Create a template document titled like '2021-06 Job descriptions review template' using the current year and month.
