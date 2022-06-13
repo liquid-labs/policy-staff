@@ -20,7 +20,7 @@ This document discusses the procedures used to review Company <term>roles</term>
 ### Roles and org chart review
 
 1. Create a task ticket.
-2. Create a folder in the [Security and compliance shared drive]({{ .SHARED_DRIVE_SECURITY_AND_COMPLIANCE }}) titled like '2021-06 Roles and org chart review', with the current year and month.
+2. Create a folder in the year folder under the [manifest review evidence folder]({{ .s.audits.MANIFEST_REVIEW_EVIDENCE_FOLDER }}) titled like '2021-06 Roles and org chart review', with the current year and month.
 3. Create a Google Doc version of [Company Jobs and Roles Reference]({{ .staff.COMPANY_JOBS_AND_ROLES_REFERENCE }}), add the current year and date to the name of that document.
 4. Refer to the [Company Jobs and Roles Reference Senior Management Team (SMT) section]({{ .staff.COMPANY_JOBS_AND_ROLES_REFERENCE }}#senior-management-team) and identify the current SMT members.
 5. Email each member with a link to the Google Doc version o the Company Jobs and Roles Reference created above and also the current Company [Org Chart]({{ .ORG_CHART }}) with the following instructions:
