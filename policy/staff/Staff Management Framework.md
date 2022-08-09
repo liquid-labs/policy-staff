@@ -12,7 +12,8 @@ This document provides an overview of Company Policy as it pertains to hiring, o
    * [Staff management standards]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}): covers [general]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#general), [hiring]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#hiring), [internal support]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#internal-support), and [compliance]({{ .staff.standards.STAFF_MANAGEMENT_STANDARDS }}#compliance) standards.
 * Procedures:
    * [Hiring Staff]({{ .staff.procedures.HIRING_STAFF }})
-   * [Onboard Staff]({{ .staff.procedures.ONBOARD_STAFF }})
+   * [Onboard New Hire]({{ .s.staff.procedures.ONBOARD_NEW_HIRE }})
    * [Roles Management]({{ .staff.procedures.ROLES_MANAGEMENT }})
+   * [Setup Google Workspace Staff Account]({{ .staff.procedures.google.SETUP_GOOGLE_WORKSPACE_STAFF_ACCOUNT }}){{/* include from settings */}}
    * [Terminate Staff]({{ .staff.procedures.TERMINATE_STAFF }})
    

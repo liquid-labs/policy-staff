@@ -164,7 +164,7 @@ _(SOC 2 Type I ref 1.4, SOC 2 Type II ref 1.4)_
    * incorporating the job description as captured in the epic description for this specific hire, and
    * specifying an 'offer expiration' date.
 3. The assigned <role>Human Resources Agent</role> shall handle initial communications regarding any questions or counter-offers and forward such communication to the responsible manager, with or without recommendations. All responses will flow through the responsible <role>Human Resources Agent</role>.
-4. If the candidate accepts the offer within the specified time period, an [onboarding epic]({{ .staff.procedures.ONBOARD_STAFF }}) is created with the expected on-board date reflected in the task date.
+4. If the candidate accepts the offer within the specified time period, create [an onboarding task]({{ .s.staff.procedures.ONBOARD_NEW_HIRE }}).
 
 ## Job post content guidelines
 
