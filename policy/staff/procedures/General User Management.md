@@ -1,4 +1,4 @@
-# General User management
+# General User Management
 
 ## Purpose and scope
 
