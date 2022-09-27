@@ -15,3 +15,9 @@ TODO: list internal support numbers
 ## Employee benefits
 
 TODO
+
+## Version history
+
+Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
+-----|--------------------|--------|------------|--------|-------------
+2021-11-08 | Initial draft. | | 6f46739 | zane@liquid-labs.com <Zane Rockenbaugh> |

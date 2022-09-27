@@ -88,3 +88,9 @@ This is performed by a <role>Workspace Admin</role>.
 #### References
 
 * [5 steps to securely transfer G Suite data when an employee leaves your company](https://www.techrepublic.com/article/5-steps-to-securely-transfer-g-suite-data-when-an-employee-leaves-your-company/), 2021-07-13
+
+## Version history
+
+Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
+-----|--------------------|--------|------------|--------|-------------
+2021-05-11 | Initial draft. | | 8954b0c | zane@liquid-labs.com <Zane Rockenbaugh> |

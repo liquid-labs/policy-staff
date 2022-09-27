@@ -218,3 +218,9 @@ Rankings are generally performed using a weighted average of scores ranging from
 3. demonstrated enthusiasm for the position, as with a custom cover letter or other communications,
 4. experience in fields related to the position, and
 5. general business experience.
+
+## Version history
+
+Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
+-----|--------------------|--------|------------|--------|-------------
+2022-09-08 | Initial draft. | | b8ac93a | zane@liquid-labs.com <Zane Rockenbaugh> |

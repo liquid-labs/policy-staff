@@ -27,3 +27,9 @@ Any criminal issues should be evaluated with reference to relevance as regards t
 * Issues not directly relevant to the position should generally be discounted.
 * One-off issues five years or more in the past should generally be discounted.
 * Any efforts on the part of the individual to provide restitution and/or address personal factors which may have contributed to any issues should be considered as potential mitigating factors.
+
+## Version history
+
+Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
+-----|--------------------|--------|------------|--------|-------------
+2021-30-04 | Initial draft. | | 29aa11a | zane@liquid-labs.com <Zane Rockenbaugh> |

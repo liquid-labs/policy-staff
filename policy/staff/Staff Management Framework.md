@@ -17,3 +17,9 @@ This document provides an overview of Company Policy as it pertains to hiring, o
    * [Setup Google Workspace Staff Account]({{ .staff.procedures.google.SETUP_GOOGLE_WORKSPACE_STAFF_ACCOUNT }}){{/* include from settings */}}
    * [Terminate Staff]({{ .staff.procedures.TERMINATE_STAFF }})
    
+
+## Version history
+
+Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
+-----|--------------------|--------|------------|--------|-------------
+2022-09-08 | Initial draft. | | b8ac93a | zane@liquid-labs.com <Zane Rockenbaugh> |

@@ -44,3 +44,9 @@ This document discusses the procedures used to review Company <term>roles</term>
 
 6. Document the above steps in the task ticket.
 7. Once all updates have been made, email the department heads asking them to verify the final drafts (with links) and then include those email chain in the ticket once all approvals are made.
+
+## Version history
+
+Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
+-----|--------------------|--------|------------|--------|-------------
+2022-12-06 | Initial draft. | | 1229233 | zane@liquid-labs.com <Zane Rockenbaugh> |

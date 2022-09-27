@@ -1,4 +1,4 @@
-# General User management
+# General User Management
 
 ## Purpose and scope
 
@@ -27,3 +27,9 @@ Note, all policy mandated groups are managed by <role>Operations Admins</role> a
 7. Click <kbd><samp>Invite 1 user</samp></kbd>.
 
 Note, for the most part Jira projects are 'open' access so there is no need to configure further access. It is up to the project manager to grant the user access via project settings.
+
+## Version history
+
+Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
+-----|--------------------|--------|------------|--------|-------------
+2021-01-09 | Initial draft. | | db4d08b | zane@liquid-labs.com <Zane Rockenbaugh> |
