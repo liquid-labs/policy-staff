@@ -12,4 +12,4 @@ This policy covers the general rights and responsibilities shared by all staff i
 
 Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
 ----------------------------------------------------------------------------
-2022-13-09 | Initial draft. | | 4690a4a | zane@liquid-labs.com <Zane Rockenbaugh> |
+2022-13-09 | Initial draft. | | 4690a4a | Zane Rockenbaugh &lt;zane@liquid-labs.com&gt; |

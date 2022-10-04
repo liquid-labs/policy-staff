@@ -32,4 +32,4 @@ Any criminal issues should be evaluated with reference to relevance as regards t
 
 Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
 -----|--------------------|--------|------------|--------|-------------
-2021-30-04 | Initial draft. | | 29aa11a | zane@liquid-labs.com <Zane Rockenbaugh> |
+2021-30-04 | Initial draft. | | 29aa11a | Zane Rockenbaugh &lt;zane@liquid-labs.com&gt; |
