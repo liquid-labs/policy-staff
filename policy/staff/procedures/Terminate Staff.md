@@ -93,4 +93,4 @@ This is performed by a <role>Workspace Admin</role>.
 
 Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
 -----|--------------------|--------|------------|--------|-------------
-2021-05-11 | Initial draft. | | 8954b0c | Zane Rockenbaugh &lt;zane@liquid-labs.com&gt; |
+2021-05-11 | Initial draft. | | 8954b0c | Zane Rockenbaugh &lt;zane@mocapay.com&gt; |

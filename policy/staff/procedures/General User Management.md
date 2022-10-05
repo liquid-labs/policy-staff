@@ -32,4 +32,4 @@ Note, for the most part Jira projects are 'open' access so there is no need to c
 
 Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
 -----|--------------------|--------|------------|--------|-------------
-2021-01-09 | Initial draft. | | db4d08b | Zane Rockenbaugh &lt;zane@liquid-labs.com&gt; |
+2021-01-09 | Initial draft. | | db4d08b | Zane Rockenbaugh &lt;zane@mocapay.com&gt; |

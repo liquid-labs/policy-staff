@@ -49,4 +49,4 @@ This document discusses the procedures used to review Company <term>roles</term>
 
 Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
 -----|--------------------|--------|------------|--------|-------------
-2022-12-06 | Initial draft. | | 1229233 | Zane Rockenbaugh &lt;zane@liquid-labs.com&gt; |
+2022-12-06 | Initial draft. | | 1229233 | Zane Rockenbaugh &lt;zane@mocapay.com&gt; |

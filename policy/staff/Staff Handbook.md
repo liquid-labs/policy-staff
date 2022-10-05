@@ -20,4 +20,4 @@ TODO
 
 Date | Change description | Ticket | Ver. (git) | Author | Reviewed by
 -----|--------------------|--------|------------|--------|-------------
-2021-11-08 | Initial draft. | | 6f46739 | Zane Rockenbaugh &lt;zane@liquid-labs.com&gt; |
+2021-11-08 | Initial draft. | | 6f46739 | Zane Rockenbaugh &lt;zane@mocapay.com&gt; |
