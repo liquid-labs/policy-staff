@@ -13,9 +13,9 @@ This policy covers the general rights and responsibilities shared by all staff i
 In general the rule of thumb is:
 1. Make sure your laptop hard-drive is encrypted.
 2. Power off your laptop when not in use.
-3. Avoid making digital or physical copies of [sensitive data](/Glossray.md#sensitive-data). In other words keep sensitive data on your laptop or an in an approved cloud storage option.
+3. Avoid making digital or physical copies of [sensitive data](/Glossray.md#sensitive-data). In other words, keep sensitive data on your laptop or in an approved cloud storage option.
 
-For the purposes of these guidelines, the phrase "sensitive asset" should be understood as any tangible object which it itself or contains [sensitive data](/Glossray.md#sensitive-data). This includes but is not limited to: laptops, mobile devices, or any electronic storage device which may contain sensitive data as well as physical reports, printouts, etc. containing sensitive data.
+For the purposes of these guidelines, the phrase "sensitive asset" should be understood as any tangible object which is itself or contains [sensitive data](/Glossray.md#sensitive-data). This includes but is not limited to: laptops, mobile devices, or any electronic storage device which may contain sensitive data as well as physical reports, printouts, etc. containing sensitive data.
 
 - **Powering off your laptop when not in use is the easiest way to securely store a laptop.**
   - When powered off and the laptop hard drive is encrypted, the data on the drive is considered to be securely stored and no further special handling is required for data protection.
@@ -33,4 +33,4 @@ For the purposes of these guidelines, the phrase "sensitive asset" should be und
 
 Date | Change description | Ticket | Ver. | Author | Reviewed by
 ----------------------------------------------------------------------------
-2022-13-09 | Initial draft. | | 4690a4a | Zane Rockenbaugh &lt;zane@mocapay.com&gt; |
+2022-10-06 | Initial draft. | SC-1070 | SC-1070 | Zane Rockenbaugh &lt;zane@mocapay.com&gt; | Layton Christensen &lt;layton@mocapay.com&gt;, Jennifer Struck &lt;jennifer@mocapay.com&gt;
