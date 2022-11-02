@@ -15,7 +15,7 @@ This document provides an overview of Company Policy as it pertains to hiring, o
    * [Onboard New Hire]({{ .s.staff.procedures.ONBOARD_NEW_HIRE }})
    * [Roles Management]({{ .staff.procedures.ROLES_MANAGEMENT }})
    * [Setup Google Workspace Staff Account]({{ .staff.procedures.google.SETUP_GOOGLE_WORKSPACE_STAFF_ACCOUNT }}){{/* include from settings */}}
-   * [Terminate Staff]({{ .staff.procedures.TERMINATE_STAFF }})
+   * [Staff Termination]({{ .s.staff.procedures.STAFF_TERMINATION }})
    
 
 ## Version history
